@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15398" started-at="2016-08-04T14:04:10Z" finished-at="2016-08-04T14:04:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15398" started-at="2016-08-04T14:04:10Z" finished-at="2016-08-04T14:04:26Z">
+      <class name="com.orangehrm.test.AdminLoginTest">
+        <test-method status="PASS" signature="adminLogin_init()[pri:0, instance:com.orangehrm.test.AdminLoginTest@7bb613c0]" name="adminLogin_init" is-config="true" duration-ms="9987" started-at="2016-08-04T07:04:10Z" finished-at="2016-08-04T07:04:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogin_init -->
+        <test-method status="PASS" signature="admin_login()[pri:0, instance:com.orangehrm.test.AdminLoginTest@7bb613c0]" name="admin_login" duration-ms="3212" started-at="2016-08-04T07:04:20Z" finished-at="2016-08-04T07:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- admin_login -->
+        <test-method status="PASS" signature="adminLogout_end()[pri:0, instance:com.orangehrm.test.AdminLoginTest@7bb613c0]" name="adminLogout_end" is-config="true" duration-ms="2179" started-at="2016-08-04T07:04:23Z" finished-at="2016-08-04T07:04:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adminLogout_end -->
+      </class> <!-- com.orangehrm.test.AdminLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

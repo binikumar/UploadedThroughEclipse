@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.orangehrm.test.UserLogin">
+        <methods>
+          <include name="user_logEnd"/>
+          <include name="userlogin"/>
+          <include name="user_init"/>
+        </methods>
+      </class> <!-- com.orangehrm.test.UserLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHrmAll" parallel="tests">
+  <test name="CheckingAllfunsn">
+    <classes>
+      <class name="com.orangehrm.test.NewUserReg"/>
+      <class name="com.orangehrm.test.UserLogin"/>
+      <class name="com.orangehrm.test.AdminLoginTest"/>
+      <class name="com.orangehrm.test.EmployeeRegTest"/>
+    </classes>
+  </test> <!-- CheckingAllfunsn -->
+</suite> <!-- OrangeHrmAll -->
